@@ -3,8 +3,8 @@ drake-interface
 
 Defines Drake interfaces.
 
-Contains a small collecton of Drake interfaces which can be implemented for the
-purpose of extending Drake, such as with plugins.
+Contains a small collecton of Drake interfaces (techncially, Clojure protocols). These can be implemented for
+the purpose of extending Drake, such as with plugins.
 
 ## Protocol
 
@@ -20,6 +20,6 @@ out.txt <- in.txt [myprotocol]
 
 ## FileSystem
 
-Drake defines a Clojure protocol named FileSystem.
+Drake defines a Clojure protocol named `FileSystem`.
 The FileSystem protocol defines the interface between Drake and specific filesystems
 such as HDFS, S3, and whatever someone may want to add on with a plugin.
