@@ -1,4 +1,5 @@
-(ns drake-interface.core)
+(ns drake-interface.core
+  (:refer-clojure :exclude [file-seq]))
 
 (defprotocol Protocol
   (cmds-required? [this])

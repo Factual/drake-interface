@@ -1,4 +1,4 @@
-(defproject drake-interface "0.0.1"
+(defproject factual/drake-interface "0.0.1"
   :description "Defines Drake interfaces"
   :url "https://github.com/Factual/drake-interface"
   :license {:name "Eclipse Public License"
